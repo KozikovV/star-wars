@@ -1,0 +1,156 @@
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	overflow: hidden;
+}
+
+.container {
+	max-width: 1200px;
+	padding: 0 15px;
+}
+
+body {
+	background-image: url(../images/starbg.jpg);
+	background-repeat: repeat;
+	font-family: 'sw-font';
+	color: yellow;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.cleaner {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	text-align: center;
+}
+
+label {
+	cursor: pointer;
+}
+
+.header h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 150px;
+	padding: 30px 0;
+	text-shadow: 2px 2px yellow,
+	0 -2px yellow,
+	-2px 0 yellow,
+	-2px -2px yellow,
+	-3px 2px yellow,
+	2px -2px yellow,
+	-3px -2px yellow,
+	0 0 8rem yellow;
+	color: black;
+}
+
+.header span {
+	text-transform: uppercase;
+	font-size: 30px;
+	color: yellow;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.content .container {
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-around;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.content input {
+	display: none;
+}
+
+.light-side {
+	background-color: #0bbfdc99;
+	border-radius: 50%;
+}
+
+.dark-side {
+	background-color: #dc0b1e99;
+	border-radius: 50%;
+}
+
+
+.footer {
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-around;
+	align-items: top;
+}
+
+.social span {
+	text-transform: uppercase;
+	font-size: 20px;
+	display: inline-block;
+	width: 100%;
+	color: black;
+	text-align: center;
+	text-shadow: 1px 1px yellow, -1px -1px yellow, -1px 1px yellow, 1px -1px yellow, 0 0 1rem yellow;
+}
+
+.social a {
+	float: left;
+	width: 33.3333%;
+	padding: 10px 10px;
+	text-align: center;
+}
+
+.social a:hover {
+	box-shadow: 1px 1px yellow, -1px -1px yellow, -1px 1px yellow, 1px -1px yellow, 0 0 1rem yellow;
+	border-radius: 50%;
+}
+
+.social img {
+	width: 30%;
+}
+
+.email {
+	width: 350px;
+	height: 30px;
+	background-color: yellow;
+	border-color: transparent;
+	padding-left: 20px;
+}
+
+.conversation span {
+	text-transform: uppercase;
+	font-size: 20px;
+	display: inline-block;
+	width: 100%;
+	color: black;
+	text-align: center;
+	text-shadow: 1px 1px yellow, -1px -1px yellow, -1px 1px yellow, 1px -1px yellow, 0 0 1rem yellow;
+	margin-bottom: 10px;
+}
+
+.conversation {
+	text-align: center;
+}
+
+.conversation button {
+	height: 30px;
+	background-color: #fff;
+	border-color: transparent;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	text-shadow: 1px 1px yellow, -1px -1px yellow, -1px 1px yellow, 1px -1px yellow, 0 0 1rem yellow;
+	padding: 2px 5px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.dark-side input[type=radio]:checked + label.dark {
+    box-shadow: 0 0 45px 3px #ff0000; }

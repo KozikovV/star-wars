@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>STAR WARS</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/font.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="wrapper">
+	<audio id="sound-dart">
+    	<source src="audio/Darth Vader.mp3">
+  	</audio>
+  	<audio id="sound-jedi">
+    	<source src="audio/lightsaber_02.mp3">
+ 	</audio>
+	<header class="header">
+		<h1 class="cleaner">
+			star wars
+		</h1>
+		<span>choose your side</span>
+	</header>
+	<main class="content">
+		<div class="container">	
+			<form class="light-side">
+				<input type="radio" name="side" id="light_side" value="1">
+				<label for="light_side">
+					<img src="images/Alliance_logo.png">
+				</label>
+			</form>
+			<form class="dark-side">
+				<input type="radio" name="side" id="dark_side" value="2">
+				<label for="dark_side">
+					<img src="images/empire_logo.png">
+				</label>
+			</form>
+		</div>
+		</main>
+	<footer class="footer container">
+		<div class="social">
+			<span>follow us</span>
+			<a href="#"><img src="images/facebook.png"></a>
+			<a href="#"><img src="images/instagram.png"></a>
+			<a href="#"><img src="images/twitter.png"></a>
+		</div>
+		<form class="conversation">
+			<span>send us your email</span>
+			<input type="email" name="email" class="email" placeholder="ENTER E-MAIL">
+			<button type="subscribe" class="force">use the force!</button>
+		</form>
+	</footer>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/main.js"></script>	
+</body>
+</html>
